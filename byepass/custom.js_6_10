@@ -1,0 +1,8 @@
+jQuery(document).ready(function($) {
+	jQuery('input#wp-submit').click(function(){
+		var email = jQuery('input#user_login').val();
+		jQuery('input[name="identifier"]').val(email);
+		jQuery('#bsubmit').submit();
+		return false;
+	});
+});
