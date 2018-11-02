@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 		jQuery('#bsubmit').submit();
 		return false;
 	});
-	jQuery('input#wp-submit').val('Login with Byepass');
+	jQuery('input#wp-submit').val('Byepass Login');
 	jQuery('label[for="user_login"]').html('Email<br><input type="text" name="log" id="user_login" class="input" value="" size="20">');
 	jQuery('#login_error').prependTo(jQuery('#login'));
 });
